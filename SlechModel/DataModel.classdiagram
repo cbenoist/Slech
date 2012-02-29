@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="7b096956-7f4b-4c24-a32a-24ee57480ff3" name="DataModel" linkedPackageId="61392c45-1aee-4694-9003-4839ac73762b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d9fcff30-92b1-4962-9ee8-7e36a8e05f9f">
+      <profileInstance Id="98d859d3-7fed-4d9b-8224-4177083f1876" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7ed4b1d4-128d-4fb3-86d0-29020f39f0fd">
+      <profileInstance Id="9181c4b7-ba54-4756-8e5b-281c0daea1ea" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="27893128-6951-4add-a6ec-85c17111b7c7" name="SlecherModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d2b22e70-2ec7-4603-a6ca-836b5943ed88" />
+        <ownedAttributesInternal>
+          <property Id="5dfa09db-8cb4-43c1-93da-38f562a5bda0" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1cde4b30-3fa4-4a1a-b089-fa850dea4b52" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5b4f8ff8-4a19-42a3-a61d-02ffbeee83c0" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="d612f7b3-effe-4133-87a8-e7241d51a05e" name="email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fee24dad-a5e4-4c75-b5f9-a197e79ac512" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="91828060-2a56-4cc7-a6ca-969b4a32624f" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="7a4436b3-b246-4921-ac39-b05986099b00" name="firstname" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b148d787-296a-47a0-b880-e6d37170e160" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="07333a2e-5062-40e5-9638-4369f58b30a7" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="4eceaffe-089a-4899-ab72-892175124790" name="lastname" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b62a4d9b-9a50-4b52-9947-3ae8af2b395a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="07ab77b7-519a-4dd3-98c7-b57d21b23de6" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fe6f5755-0911-4fcf-9bfc-66183e091a99" name="SlechModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0dd61054-ec49-453c-92bf-37ac1f25c29b" />
+        <suppliersInternal>
+          <dependency Id="7ee1bf28-8e3e-4852-9a4b-c30bc37e7531">
+            <classMoniker Id="27893128-6951-4add-a6ec-85c17111b7c7" LastKnownName="SlecherModel" />
+            <elementDefinition Id="33197b80-3b52-4f72-847c-d97de2aae64c" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="4e555d2b-4803-4979-9727-010f02049ebc" name="slech" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8feab2a6-fef8-4533-a6c4-b095d3c5704c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="276eb13f-8c0e-4719-b2f9-55f6c9e8aae8" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="2c48dce9-ebc4-4e70-be55-5808ef94df6d" name="slecher" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <lowerValueInternal>
+              <literalString Id="cf28d049-86da-4f80-9f4b-0cea32e162a8" name="Lower" value="1">
+                <elementDefinition Id="b6c0b80b-b04e-4cae-95c0-9c5e030832bd" />
+              </literalString>
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString Id="d73b067d-3627-4f7e-a254-19896182f6d8" name="Upper" value="1">
+                <elementDefinition Id="14ea43d6-62bb-407f-9de8-c56706754c4c" />
+              </literalString>
+            </upperValueInternal>
+            <elementDefinition Id="1a2bf8d9-297f-4bc4-821d-f23199be24ed" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b6fa474f-0c64-4c11-8c66-a63458beb692" LastKnownName="SlecherModel" />
+            </type_NamedElement>
+          </property>
+          <property Id="21998efa-0c65-4ce2-90fb-306a3e4a4dcb" name="submitDate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="24e61b4a-a713-4c46-b8e8-b53ae4d00fb6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f574e65e-e8dd-426b-b342-6a5ed1b72a9c" LastKnownName="DateTime" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5b4f8ff8-4a19-42a3-a61d-02ffbeee83c0" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="07333a2e-5062-40e5-9638-4369f58b30a7" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="07ab77b7-519a-4dd3-98c7-b57d21b23de6" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="91828060-2a56-4cc7-a6ca-969b4a32624f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="276eb13f-8c0e-4719-b2f9-55f6c9e8aae8" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b6fa474f-0c64-4c11-8c66-a63458beb692" name="SlecherModel" isAbstract="false" isLeaf="false" cachedFullName="SlechModel::SlecherModel">
+        <elementDefinition Id="d2b22e70-2ec7-4603-a6ca-836b5943ed88" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f574e65e-e8dd-426b-b342-6a5ed1b72a9c" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="502d4e2c-6223-41ed-a30e-3ff9a1ac92af" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="61392c45-1aee-4694-9003-4839ac73762b" name="SlechModel">
+    <elementDefinition Id="f274827d-2c5e-48f0-a2bc-89ec547970eb" />
+  </package>
+</logicalClassDesignerModel>
