@@ -125,7 +125,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\SlecherModel.cs" />
-    <Compile Include="Scripts\SlechModel.cs" />
+    <Compile Include="Models\SlechModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
