@@ -70,6 +70,12 @@
               <referencedTypeMoniker Id="f574e65e-e8dd-426b-b342-6a5ed1b72a9c" LastKnownName="DateTime" />
             </type_NamedElement>
           </property>
+          <property Id="47db4bb0-1ab0-4f3e-97c5-2c07debf81da" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b1491e3b-3476-4c60-96ac-81ca77b749de" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1a7a4065-07dd-48ae-9a62-1f0d3d4e1d29" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -106,6 +112,11 @@
     <packageHasNamedElement>
       <referencedType Id="f574e65e-e8dd-426b-b342-6a5ed1b72a9c" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
         <elementDefinition Id="502d4e2c-6223-41ed-a30e-3ff9a1ac92af" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1a7a4065-07dd-48ae-9a62-1f0d3d4e1d29" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

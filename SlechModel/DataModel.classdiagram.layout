@@ -9,14 +9,14 @@
         <OperationElementListCompartment Id="5dd3f88e-d992-4d14-ab5b-26ed70c5540c" absoluteBounds="0.51499999999999968, 1.7417968476812042, 1.4700000000000002, 0.20117186754941963" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ea354962-c9c9-4494-a645-0d42b5e4ddad" absoluteBounds="3.125, 0.5, 1.5, 1.3828124701976781" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="ea354962-c9c9-4494-a645-0d42b5e4ddad" absoluteBounds="3.125, 0.5, 1.5, 1.5429687152306242" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
       <classMoniker Id="fe6f5755-0911-4fcf-9bfc-66183e091a99" LastKnownName="SlechModel" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="df7a1a0f-28a3-47e9-a802-396fd4fd3947" absoluteBounds="3.1400000000000006, 0.89000000000000012, 1.4700000000000002, 0.68164060264825821" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="8ff38384-7ba3-4298-a336-94eb45b0d9ee" absoluteBounds="3.1400000000000006, 1.5816406026482586, 1.4700000000000002, 0.20117186754941963" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="df7a1a0f-28a3-47e9-a802-396fd4fd3947" absoluteBounds="3.1400000000000006, 0.89000000000000012, 1.4700000000000002, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="8ff38384-7ba3-4298-a336-94eb45b0d9ee" absoluteBounds="3.14, 1.7417968476812045, 1.4700000000000002, 0.20117186754941963" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <dependencyConnector edgePoints="[(3.125 : 1.19140623509884); (2 : 1.19140623509884)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+    <dependencyConnector edgePoints="[(3.125 : 1.27148435761531); (2 : 1.27148435761531)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
       <dependencyMoniker Id="7ee1bf28-8e3e-4852-9a4b-c30bc37e7531" />
       <relativeChildShapes />
       <nodes>
