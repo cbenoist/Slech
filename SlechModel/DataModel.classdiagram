@@ -29,6 +29,12 @@
               <referencedTypeMoniker Id="07ab77b7-519a-4dd3-98c7-b57d21b23de6" LastKnownName="String" />
             </type_NamedElement>
           </property>
+          <property Id="f2ef1c2f-ca40-47ae-8f58-f2a9292e2ec4" name="location" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="25903e52-8062-4334-b8f2-686d973afcb5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c4faaf08-c2b8-473e-9a9b-e367e2d1ea70" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -117,6 +123,11 @@
     <packageHasNamedElement>
       <referencedType Id="1a7a4065-07dd-48ae-9a62-1f0d3d4e1d29" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
         <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c4faaf08-c2b8-473e-9a9b-e367e2d1ea70" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>
