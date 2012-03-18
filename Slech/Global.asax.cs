@@ -6,6 +6,9 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Slech.Models;
+using Slech.Filters;
+using Ninject;
 
 namespace Slech
 {
@@ -18,6 +21,18 @@ namespace Slech
         {
             filters.Add(new HandleErrorAttribute());
         }
+
+        public static void Configure(HttpConfiguration config)
+        {
+            config.Filters.Add(new ValidationActionFilter());
+
+            var kernel = new StandardKernel();
+            kernel.Bind<ISlechRepository>().ToConstant(new InitialData());
+            config.ServiceResolver.SetResolver(
+                t => kernel.TryGet(t),
+                t => kernel.GetAll(t));
+        } 
+
 
         public static void RegisterRoutes(RouteCollection routes)
         {

@@ -5,12 +5,12 @@ using System.Web;
 
 namespace Slech.Models
 {
-    public class SlechModel
+    public class Slech
     {
         public int Id { get; set; }
-        public string Slech { get; set; }
+        public string Text { get; set; }
         public DateTime SubmitDate { get; set; }
 
-        public virtual SlecherModel Slecher { get; set; }
+        public virtual Slecher Slecher { get; set; }
     }
 }
